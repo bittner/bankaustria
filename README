@@ -1,0 +1,68 @@
+Bank Austria MobileBanking
+--------------------------
+
+MobileBanking service of UniCredit Bank Austria AG as available from their
+website. This is a secure app, because it's the unaltered cross-platform
+mobile banking service for UniCredit customers in Austria.
+
+This web app is neither provided nor endorsed by UniCredit Bank Austria AG.
+Bank Austria online banking is available from the following URLs:
+- https://mobile.bankaustria.at/ (mobile version provided by this app)
+- https://online.bankaustria.at/ (desktop version for your PC)
+
+Support requests related to the banking service should be directed to
+Bank Austria at http://www.bankaustria.at/privatkunden-kontaktformular.jsp
+
+Information related phishing and other important security announcements
+are available from http://sicherheit.bankaustria.at/ and the start page
+of the desktop version (see above).
+
+This web app is not affiliated with UniCredit Bank Austria AG. The product
+name, associated trade marks and the UniCredit logo may be trade marks of
+UniCredit Bank Austria AG, headquartered at Schottengasse 6-8, 1010 Wien.
+
+License
+-------
+
+Bank Austria MobileBanking for Ubuntu Touch devices
+Copyright (C) 2015  Peter Bittner <django@bittner.it>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Support
+-------
+
+Source code:
+- https://github.com/bittner/bankaustria
+
+Issue tracker:
+- https://github.com/bittner/bankaustria/issues
+
+Development
+-----------
+
+Ubuntu developer information on Webapps
+- https://developer.ubuntu.com/en/web/
+
+Introductory guide on Ubuntu Webapps
+- https://developer.ubuntu.com/en/web/ubuntu-webapps-guide/
+
+Ubuntu Webapps tutorials
+- https://developer.ubuntu.com/en/web/tutorials/
+
+Build and publish the .click package manually, without Ubuntu SDK:
+- Install `click` on your developer machine (`sudo apt-get install click`)
+- Make sure you have bumped the version number in `manifest.json`
+- `cd` into the project repo folder and build the package (`click build .`)
+- Upload the created .click file at https://myapps.developer.ubuntu.com

@@ -1,0 +1,15 @@
+{
+    "name": "bankaustria.peter-bittner",
+    "description": "Mobile banking app of UniCredit Bank Austria AG (Unofficial)",
+    "architecture": "all",
+    "title": "Bank Austria MobileBanking",
+    "hooks": {
+        "bankaustria": {
+            "apparmor": "bankaustria.apparmor",
+            "desktop": "bankaustria.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Peter Bittner <django@bittner.it>",
+    "framework": "ubuntu-sdk-15.04"
+}

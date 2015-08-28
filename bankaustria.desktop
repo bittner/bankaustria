@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Bank Austria MobileBanking
+Comment=Mobile banking app of UniCredit Bank Austria AG (Unofficial)
+Type=Application
+Icon=bankaustria.png
+Exec=webapp-container --store-session-cookies --webappUrlPatterns=https://mobile.bankaustria.at/* https://mobile.bankaustria.at/
+Terminal=false
+X-Ubuntu-Touch=true
